@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Projeão</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: url("imagem\ 2/fundo.jpg");
+        }
+        fieldset{
+            background-color: rgb(255, 255, 255);
+            text-align: center;
+            position:absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 40px;
+            border: 65px;
+            width: 40%;
+        }
+        button{
+            background-color: blue;
+        }
+        h2{
+            text-decoration: overline underline;
+            color: rgb(121, 122, 122);
+            font-family:'Times New Roman';
+        }
+</style>
+</head>
+<body>
+    <section class="section-form-2">
+        <!--Formulario 2-->
+        <div id="formulario2">
+            <fieldset>
+            <img src="./imagen  1/logo.jpg" alt="Logo da Facul" width="180">
+            <br>
+            <h2>Aluno</h2>
+            <form action="Projeção" class="formulario2">
+                <div class="form-projecao">
+                    <label class="matricula" for="#">Matrícula</label>
+                    <br>
+                    <input class="projecao-input" type="text" name="matricula" maxlength="9">
+                    <br><br>
+                    <label class="senha" for="#">Senha</label>
+                    <br>
+                    <input class="projecao-input" type="password" name="senha" minlength="6" maxlength="15">
+                    <br><br>
+                    <button style="background-color:rgb(159, 183, 248); border-color:rgb(159, 183, 248); color:white">Enviar</button>
+            </fieldset>
+            </form>
+        </div>
+    </section>
+</body>
+</html>
